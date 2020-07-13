@@ -14,8 +14,8 @@ if (typeof a2 === 'number') {
 //boolean
 let a3 = true
 let b3 = false
-const c3 = true
 let d3: boolean = true
 //literal type
+const c3 = true
 let e3: true = true
 // let f3: true = false
