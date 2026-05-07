@@ -154,3 +154,5 @@ $RECYCLE.BIN/
 *.code-workspace
 package-lock.json
 .vscode-janus-debug
+
+.claude
