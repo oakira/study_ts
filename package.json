@@ -1,23 +1,26 @@
 {
-	"name": "study_ts",
-	"version": "1.0.0",
-	"description": "typescript study",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/oakira/study_ts.git"
-	},
-	"author": "",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/oakira/study_ts/issues"
-	},
-	"homepage": "https://github.com/oakira/study_ts#readme",
-	"devDependencies": {
-		"@types/node": "^14.0.11",
-		"tslint": "^6.1.2",
-		"typescript": "^3.9.5"
-	}
+  "name": "study_ts",
+  "version": "1.0.0",
+  "description": "typescript study",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oakira/study_ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oakira/study_ts/issues"
+  },
+  "homepage": "https://github.com/oakira/study_ts#readme",
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "eslint": "^9.27.0",
+    "typescript": "^5.8.3"
+  }
 }
