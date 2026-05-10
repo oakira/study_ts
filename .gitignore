@@ -156,3 +156,6 @@ package-lock.json
 .vscode-janus-debug
 
 .claude
+.cursor
+.codex
+.serena
